@@ -1,4 +1,4 @@
-# Node App Development Environment
+# Node App Development Environment 
 This repository contains a Node application which is integrated with mongodb. To learn more about the app itself, please see the README.md file within the app folder.
 
 ## Prerequisites
