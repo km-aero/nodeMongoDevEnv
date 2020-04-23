@@ -26,9 +26,13 @@ sudo npm install pm2@latest -g
 sudo systemctl start nginx
 unlink /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
+sleep 10
+sudo systemctl reload-or-restart nginx
+sleep 10
 sudo systemctl reload-or-restart nginx
 
 # start the app
 cd app
 npm install
+npm test
 npm start
