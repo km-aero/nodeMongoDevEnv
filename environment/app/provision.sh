@@ -34,5 +34,4 @@ sudo systemctl reload-or-restart nginx
 # start the app
 cd app
 npm install
-npm test
 npm start
