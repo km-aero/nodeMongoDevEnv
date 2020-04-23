@@ -34,4 +34,7 @@ sudo systemctl reload-or-restart nginx
 # start the app
 cd app
 npm install
-npm start
+
+# fill the DB
+cd seeds
+node seeds/seed.js
