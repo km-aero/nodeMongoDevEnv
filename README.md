@@ -8,7 +8,7 @@ To run this environment you will need the below (versions used included):
 - VirtualBox v6.1.4
 
 ## Dependencies
-Before running the app you will need to install dependencies but the provision files will have already done this for you automatically. Steps are below for your reference:
+Before running the app you will need to install dependencies which will allow you to run the application. Steps are below:
 1. Create the two virtual machines using Vagrant
 ```bash
 vagrant up
@@ -22,7 +22,7 @@ vagrant ssh app
 ```bash
 cd app
 ```
-4. Install application's dependencies
+4. Install application's dependencies (this step would have been completed automatically)
 ```bash
 npm install
 ```
