@@ -27,3 +27,8 @@ sudo systemctl start nginx
 unlink /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
 sudo systemctl reload-or-restart nginx
+
+# start the app
+cd app
+npm install
+npm start

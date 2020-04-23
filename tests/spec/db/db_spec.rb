@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe package 'mongodb-org' do
-  it { should be_installed.with_version('3.2.20') }
+  it { should be_installed.with_version('4.2.6') }
 end
 
 describe service 'mongod' do
